@@ -1,13 +1,13 @@
-# (c) @RknDeveloperr
-# Rkn Developer 
+# (c) https://renish-rgi.github.io/RENISH
+# ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁ 
 # Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Botz
-# Developer @RknDeveloperr
-# Special Thanks To @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
+# Telegram Channel https://renish-rgi.github.io/RENISH/contact
+# Developer https://renish-rgi.github.io/RENISH
+# Special Thanks To ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁
+# Update Channelhttps://renish-rgi.github.io/RENISH/contact
 """
 Apache License 2.0
-Copyright (c) 2022 @Digital_Botz
+Copyright (c) 2022 ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,9 +24,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Telegram Link : https://t.me/Digital_Botz 
-Repo Link : https://github.com/DigitalBotz/Digital-Rename-Bot
-License Link : https://github.com/DigitalBotz/Digital-Rename-Bot/blob/main/LICENSE
+Telegram Link : https://telegram.im/renish_rgi 
+Repo Link : https://renish-rgi.github.io/RENISH/contact
 """
 
 import re, os, time
@@ -46,7 +45,7 @@ class Config(object):
     DB_URL = os.environ.get("DB_URL","mongodb+srv://R:R@cluster0.sxmc3.mongodb.net/cluster0?retryWrites=true&w=majority")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/mWD.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1927155351').split()]
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001986722664"))
 
@@ -76,7 +75,7 @@ class rkn(object):
 𝚈ᴏᴜ 𝙲ᴀɴ 𝙰ʟsᴏ 𝙲ᴏɴᴠᴇʀᴛ 𝚅ɪᴅᴇᴏ 𝚃ᴏ 𝙵ɪʟᴇ & 𝙵ɪʟᴇ 𝚃ᴏ 𝚅ɪᴅᴇᴏ
 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙰𝙻𝚂𝙾 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙲𝚄𝚂𝚃𝙾𝙼 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝙰𝙽𝙳 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽
 
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
+Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁ 💞</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
@@ -85,7 +84,7 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
 ├📕 Lɪʙʀᴀʀy : {}
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: {}
 ├💾 Dᴀᴛᴀ Bᴀꜱᴇ: {}
-├📊 ᴠᴇʀsɪᴏɴ: <a href=https://github.com/DigitalBotz/Digital-Rename-Bot>{}</a></b>     
+├📊 ᴠᴇʀsɪᴏɴ: <a href=https://renish-rgi.github.io/RENISH>{}</a></b>     
 ╰───────────────⍟ """
 
     HELP_TXT = """
@@ -93,7 +92,8 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
 
 ✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 <b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/DigitalBotz_Support>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
+ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://renish-rgi.github.io/RENISH/contact>CONTENT</a>
+by : - https://renish-rgi.github.io/RENISH
 """
 
     UPGRADE_PREMIUM= """
@@ -169,13 +169,13 @@ V𝟹.𝟶.𝟶 [STABLE]
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-`--change-title @Rkn_Botz
---change-video-title @Rkn_Botz
---change-audio-title @Rkn_Botz
---change-subtitle-title @Rkn_Botz
---change-author @Rkn_Botz`
+`--change-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁
+--change-video-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁
+--change-audio-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁
+--change-subtitle-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁
+--change-author ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁`
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Digital_Botz
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. https://renish-rgi.github.io/RENISH/contact
 """
     
     CUSTOM_FILE_NAME = """
@@ -190,8 +190,8 @@ you can pre-add a prefix and suffix along with your new filename
 ➢ /see_suffix - Tᴏ Sᴇᴇ Yᴏᴜʀ Sᴜғғɪx !!
 ➢ /del_suffix - Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Sᴜғғɪx !!
 
-Exᴀᴍᴩʟᴇ:- `/set_suffix @Digital_Botz`
-Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
+Exᴀᴍᴩʟᴇ:- `/set_suffix ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁`
+Exᴀᴍᴩʟᴇ:- `/set_prefix ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁`
 """
     
     #⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
@@ -201,9 +201,9 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
     
 » 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/DigitalBotz/Digital-Rename-Bot>Digital-Rename-Bot</a>
 
-• ❣️ <a href=https://github.com/RknDeveloper>RknDeveloper</a>
-• ❣️ <a href=https://github.com/DigitalBotz>DigitalBotz</a>
-• ❣️ <a href=https://github.com/JayMahakal98>Jay Mahakal</a> """
+• ❣️ <a href=https://renish-rgi.github.io/RENISH/contact>❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁</a>
+• ❣️ <a href=https://renish-rgi.github.io/RENISH>❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁</a>
+• ❣️ <a href=https://telegram.im/renish_rgi_bot>❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁</a> """
     # ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
     SEND_METADATA = """
@@ -211,13 +211,13 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-`--change-title @Rkn_Botz
---change-video-title @Rkn_Botz
---change-audio-title @Rkn_Botz
---change-subtitle-title @Rkn_Botz
---change-author @Rkn_Botz`
+`--change-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁
+--change-video-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁
+--change-audio-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁
+--change-subtitle-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁
+--change-author ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁`
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Digital_Botz
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. https://renish-rgi.github.io/RENISH/contact
 """
     
     RKN_PROGRESS = """<b>\n
