@@ -34,21 +34,21 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "7331072")
+    API_HASH = os.environ.get("API_HASH", "f0bc2baeedff0926f9082880c326a475")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7609447905:AAGIt3PP7Djm1vLO4Qg_5maIVbaSA1_wzhg") 
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQFZ7DQAt1Mw2Lf1jJDFqqnWG3i9TSAqWC5f7_iT77njQT3j7hDxYjS1yfvrv46UI1V9sEatx6f4Aog7uVlCyA5vZRVlKKoYLuepDbfMH3Q_QwZii12oZXcada0MZz3bVnl2_oLS-0slunlhPNbuRkWcQToIe1YX0r46ZUydXamd4aggiOLKHm9bSucYDgpWTLMIY5uW5IHyhkGWTB6pja0MbWHfriEEdTntfOPLHePqhxC74jAxGkA98R5MOaxI2ekvSsjtBfilSbrzVLeh_gz1Ek-CnM28tazaxTg0LGstg_vhM9lPtTC0cvnOezpMm8lfuhx0XzMnphCtk-xiB5ZO9PsIkAAAAAFhGlleAA")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","R")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://R:R@cluster0.sxmc3.mongodb.net/cluster0?retryWrites=true&w=majority")
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1927155351').split()]
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001986722664"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
@@ -59,7 +59,7 @@ class Config(object):
     
     #force subs
     try:
-        FORCE_SUB = int(os.environ.get("FORCE_SUB", "")) 
+        FORCE_SUB = int(os.environ.get("FORCE_SUB", "M0VIES_CHANNEL")) 
     except:
         FORCE_SUB = os.environ.get("FORCE_SUB", "Digital_Botz")
         
