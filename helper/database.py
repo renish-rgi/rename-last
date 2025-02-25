@@ -1,10 +1,4 @@
-# (c) @RknDeveloperr
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Botz
-# Developer @RknDeveloperr
-# Special Thanks To (https://github.com/JayMahakal98)
-# Update Channel @Digital_Botz & @DigitalBotz_Support
+
 
 """
 Apache License 2.0
