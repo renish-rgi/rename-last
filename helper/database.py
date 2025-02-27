@@ -50,7 +50,7 @@ class Database:
             usertype="Free",
             uploadlimit=Config.FREE_UPLOAD_LIMIT,
             daily=0,
-            metadata_mode=False,
+            metadata_mode=True,
             metadata_code="--change-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁\n--change-video-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁\n--change-audio-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁\n--change-subtitle-title ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁\n--change-author ❁✗❍═❰ 🆁︎🅴︎🅽︎🅸︎🆂︎🅷︎ ❱═❍✗❁",
             expiry_time=None,
             has_free_trial=False,
